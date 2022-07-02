@@ -1,0 +1,11 @@
+.my-Button {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    margin: 0px 10px 0px 10px;
+}
+
+.my {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // var student1 = {
+        //     name: "Nayeem",
+        //     age: 1,
+        //     cgpa: 4.83,
+        //     language: ["html", "css", "js"],
+        // }
+        // document.write(student1.name + "</br>");
+
+        // var student2 = {
+        //     name: "Orko",
+        //     age: 18,
+        //     cgpa: 4.83,
+        //     language: ["html"],
+        // }
+        // document.write(student2.age);
+
+        function Student(name, age, cgpa, language) {
+            this.name = name;
+            this.age = age;
+            this.cgpa = cgpa;
+            this.language = language;
+            this.display = function () {
+                document.write(this.name);
+                document.write(this.age);
+                document.write(this.cgpa);
+                document.write(this.language);
+            }
+        }
+
+
+        var student1 = new Student("Anisul Islam", 28, 4.00, ["c++, js"]);
+        var student2 = new Student("Nayeem", 19, 4.83, "js");
+
+        student1.display();
+
+    </script>
+</body>
+
+</html>New

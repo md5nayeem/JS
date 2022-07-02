@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for vs forEach</title>
+</head>
+
+<body>
+
+
+
+    <script>
+        // var names = ["Nayeem", "Shakib", "Arko", "Labib"]
+
+        // for (var x = 0; x <= names.length; x++) {
+        //     console.log(names[x]);
+        // }
+
+
+        // var names = ["Nayeem", "Shakib", "Arko", "Labib"]
+
+        // names.forEach(myFunction)
+        // function myFunction(x){
+        //     console.log(x);
+        // }
+
+
+        // var names = ["Nayeem", "Shakib", "Arko", "Labib"]
+
+        // names.forEach(function(x){
+        //     console.log(x);
+        // })
+
+
+        // var numbers = [10, 20, 30]
+
+        // var squareNumbers = [];
+        // numbers.forEach(function(x){
+        //     squareNumbers.push(x*x);
+        // }) 
+        // document.write(squareNumbers);
+
+
+        var numbers = [10, 20, 30]
+
+        numbers.forEach(function (x, index, arr) {
+            arr[index] = x + 5
+        })
+        document.write(numbers);
+
+
+        document.write("</br>")
+
+
+        var numbers = [10, 20, 30]
+
+        numbers.forEach(function (x, index, arr) {
+            document.write(index + ":" + x + "</br>");
+        })
+
+    </script>
+</body>
+
+</html>

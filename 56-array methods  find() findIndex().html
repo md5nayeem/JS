@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array methods | find() | findIndex()</title>
+</head>
+
+<body>
+    <script>
+        let numbers = [39, 4, 5, 14, 37100, 45, 50]
+        let firstEvenNumber = numbers.findIndex(x => x % 2 === 0)
+        console.log(firstEvenNumber);
+
+
+
+        let students = [
+            {
+                id: 101,
+                gpa: 3
+            },
+
+            {
+                id: 102,
+                gpa: 3.5
+            },
+
+            {
+                id: 103,
+                gpa: 4.5
+            },
+
+            {
+                id: 104,
+                gpa: 5
+            }
+        ]
+console.log(students.find(x => x.gpa>4));
+    </script>
+
+</body>
+
+</html>

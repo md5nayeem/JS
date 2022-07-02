@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spread operator</title>
+</head>
+
+<body>
+
+
+
+    <script>
+        function addNumbers(x, y, ...z) {
+            return x + y + z;
+        }
+
+        let numbers = [1, 2, 3, 10];
+        // let result = (addNumbers(numbers[0], numbers[1], numbers[2]));
+        console.log(addNumbers(...numbers));
+
+        // let numbers1 = [5, 6, ...numbers0];
+        // console.log(addNumbers(...numbers1));
+
+        // let numbers2 = [5, 4, 9];
+        // let numbers3 = [2, 5, 5, 3];
+        // let numbers4 = numbers2.concat(numbers3);
+        // let numbers4 = [...numbers2, numbers3]
+        // console.log(addNumbers(...numbers));
+
+
+
+        // let p1 = {
+        //     name: "Nayeem",
+        //     age: 5,
+        // }
+
+        // let p2 = {
+        //     nationality: "Bangladesh",
+        //     occupation: "student",
+        // }
+
+        // let p = { ...p1, ...p2 };
+        // console.log(p);
+    </script>
+</body>
+
+</html>

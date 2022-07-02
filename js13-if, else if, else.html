@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if, else if, else</title>
+</head>
+
+<body>
+    <script>
+
+        var x = 15;
+        // var y = 10;
+        // if (x < y) {
+        //     document.write("Y is greater")
+        // }
+
+        // var x = 10;
+        // var y = 10;
+        // if (x == y) {
+        //     document.write("x & y is equal")
+        // }
+
+        // var x = prompt("ENTER A NUMBER :");
+        // if (x % 2 == 0) {
+        //     document.write("EVEN")
+        // } else (x % 2 != 0) {
+        //     document.write("odd")
+        // }
+
+        var per = prompt("ENTER YOUR NUMBER :");
+
+        if (per >= 80 && per <= 100) {
+            document.write("YOU GOT A+");
+        } else if (per >= 70) {
+            document.write("YOU GOT A");
+        } else if (per >= 60) {
+            document.write("YOU GOT A-");
+        } else if (per >= 50) {
+            document.write("YOU GOT B");
+        } else if (per >= 40) {
+            document.write("YOU GOT C");
+        } else if (per >= 33) {
+            document.write("YOU GOT D");
+        } else if (per >= 32 && per <= 0) {
+            document.write("YOU ARE FAIL");
+        } else {
+            document.write("PLEASE ENTER A VALID NUMBER");
+        }
+    </script>
+</body>
+
+</html>

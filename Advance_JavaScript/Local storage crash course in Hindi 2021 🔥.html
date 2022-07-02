@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local storage crash course in Hindi 2021 🔥</title>
+</head>
+
+<body>
+    <script>
+        // console.log(window.localStorage);
+
+        // localStorage.setItem('theme', 'dark');
+        // localStorage.setItem('font', 'bold');
+
+
+        // localStorage.removeItem('font');
+
+        // localStorage.clear();
+
+        // const x = localStorage.getItem('theme');
+        // console.log(x)
+
+
+
+
+
+
+
+
+
+        const userSetting = {
+            theme: 'dark',
+
+            font: 'bold',
+
+            score: '100'
+        }
+
+        //  const x = JSON.stringify(userSetting)
+        //  localStorage.setItem('user', x)
+
+        localStorage.setItem('user', JSON.stringify(userSetting));
+
+        const x = JSON.parse(localStorage.getItem('user'));
+        console.log('x:', x.theme)
+
+    </script>
+</body>
+
+</html>

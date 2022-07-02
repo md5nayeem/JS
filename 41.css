@@ -1,0 +1,35 @@
+body {
+    background: url(Image/pexels-iconcom-733174.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* div{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    color: black;
+    background-color: transparent;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    margin-top: 180px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 25px 25px 50px -5px black;
+}
+
+
+
+.anim{
+    transform: rotate(45deg);
+} */
+
+
+h1 {
+    background-color: red;
+    text-align: center;
+}

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>console</title>
+</head>
+
+<body>
+    <script>
+
+        var students = [
+            {
+                name: "Nayeem",
+                email: "demo@gmail.com",
+                phone: 12345678910
+            },
+            {
+                name: "Shakib",
+                email: "demo@gmail.com",
+                phone: 12345678910
+            },
+            {
+                name: "Konok",
+                email: "demo@gmail.com",
+                phone: 12345678910
+            },
+            {
+                name: "Arko",
+                email: "demo@gmail.com",
+                phone: 12345678910
+            },
+            {
+                name: "Laib",
+                email: "demo@gmail.com",
+                phone: 12345678910
+            },
+        ]
+        // console.table(students);
+        console.table(students, ["name"]);
+
+
+
+
+
+
+
+
+
+        console.log("%s is %d years old", "Jhon", 32);
+
+
+
+
+
+
+
+
+
+        console.log("x");
+
+
+
+
+
+
+
+
+
+        var students = [
+            {
+                name: "Nayeem",
+                email: "demo@gmail.com",
+                phone: 12345678910
+            },
+            {
+                name: "Shakib",
+                email: "demo@gmail.com",
+                phone: 12345678910
+            },
+            {
+                name: "Konok",
+                email: "demo@gmail.com",
+                phone: 12345678910
+            },
+            {
+                name: "Arko",
+                email: "demo@gmail.com",
+                phone: 12345678910
+            },
+            {
+                name: "Nayeem",
+                email: "demo@gmail.com",
+                phone: 12345678910
+            },
+        ]
+        console.info(students);
+
+
+
+
+
+
+
+
+
+        console.debug("Console Debug");
+
+
+
+
+
+
+
+
+
+        console.warn("x");
+
+
+
+
+
+
+
+
+
+        console.error("x");
+
+
+
+
+
+
+
+
+
+        var x = false;
+        console.assert(x, "That's why");
+
+
+
+
+
+
+
+
+
+        for (i = 0; i < 10; i++) {
+            // debugger
+            console.count(i)
+
+        }
+
+
+
+
+
+
+
+
+
+        console.time();
+        setTimeout(() => {
+            console.timeEnd()
+        }, 5000);
+
+
+
+
+
+
+
+
+
+        console.time();
+        setTimeout(() => {
+            console.timeLog()
+        }, 2000);
+
+
+
+
+
+
+
+
+
+        console.log("I'm not in a group");
+
+        console.group("Group 1");
+        console.log("I'm in a group");
+        console.log("I'm in a group");
+        console.groupEnd();
+
+        console.log("I'm not in a group");
+
+
+
+
+
+
+
+
+
+        console.groupCollapsed("Group 2");
+        console.log("I'm in a group");
+        console.log("I'm in a group");
+        console.groupEnd();
+
+
+
+
+
+
+
+
+
+        console.log("%c This is a demo text", "color : white; background : red");
+        console.log("%c Auth", "color : white; background : red; font-size : 15px", "has logged in");
+
+
+
+
+
+
+
+
+
+        var hero = 1;
+        console.log('hero:', hero)
+
+    </script>
+</body>
+
+</html>
